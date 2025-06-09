@@ -1,0 +1,15 @@
+/home/chris/ContentFlagger/jellyfin-plugin-template/Jellyfin.Plugin.Template/obj/Debug/net8.0/Jellyfin.Plugin.ContentFlagger.csproj.AssemblyReference.cache
+/home/chris/ContentFlagger/jellyfin-plugin-template/Jellyfin.Plugin.Template/obj/Debug/net8.0/Jellyfin.Plugin.ContentFlagger.GeneratedMSBuildEditorConfig.editorconfig
+/home/chris/ContentFlagger/jellyfin-plugin-template/Jellyfin.Plugin.Template/obj/Debug/net8.0/Jellyfin.Plugin.ContentFlagger.AssemblyInfoInputs.cache
+/home/chris/ContentFlagger/jellyfin-plugin-template/Jellyfin.Plugin.Template/obj/Debug/net8.0/Jellyfin.Plugin.ContentFlagger.AssemblyInfo.cs
+/home/chris/ContentFlagger/jellyfin-plugin-template/Jellyfin.Plugin.Template/obj/Debug/net8.0/Jellyfin.Plugin.ContentFlagger.csproj.CoreCompileInputs.cache
+/home/chris/ContentFlagger/jellyfin-plugin-template/Jellyfin.Plugin.Template/obj/Debug/net8.0/Jellyfin.Plugin.ContentFlagger.sourcelink.json
+/home/chris/ContentFlagger/jellyfin-plugin-template/Jellyfin.Plugin.Template/bin/Debug/net8.0/Jellyfin.Plugin.ContentFlagger.deps.json
+/home/chris/ContentFlagger/jellyfin-plugin-template/Jellyfin.Plugin.Template/bin/Debug/net8.0/Jellyfin.Plugin.ContentFlagger.dll
+/home/chris/ContentFlagger/jellyfin-plugin-template/Jellyfin.Plugin.Template/bin/Debug/net8.0/Jellyfin.Plugin.ContentFlagger.pdb
+/home/chris/ContentFlagger/jellyfin-plugin-template/Jellyfin.Plugin.Template/bin/Debug/net8.0/Jellyfin.Plugin.ContentFlagger.xml
+/home/chris/ContentFlagger/jellyfin-plugin-template/Jellyfin.Plugin.Template/obj/Debug/net8.0/Jellyfin.Plugin.ContentFlagger.dll
+/home/chris/ContentFlagger/jellyfin-plugin-template/Jellyfin.Plugin.Template/obj/Debug/net8.0/refint/Jellyfin.Plugin.ContentFlagger.dll
+/home/chris/ContentFlagger/jellyfin-plugin-template/Jellyfin.Plugin.Template/obj/Debug/net8.0/Jellyfin.Plugin.ContentFlagger.xml
+/home/chris/ContentFlagger/jellyfin-plugin-template/Jellyfin.Plugin.Template/obj/Debug/net8.0/Jellyfin.Plugin.ContentFlagger.pdb
+/home/chris/ContentFlagger/jellyfin-plugin-template/Jellyfin.Plugin.Template/obj/Debug/net8.0/ref/Jellyfin.Plugin.ContentFlagger.dll

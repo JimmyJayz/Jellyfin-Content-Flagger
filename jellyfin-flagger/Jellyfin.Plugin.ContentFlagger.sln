@@ -1,0 +1,15 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jellyfin.Plugin.ContentFlagger", "Jellyfin.Plugin.Template\Jellyfin.Plugin.ContentFlagger.csproj", "{f045375e-f67f-4e6e-babc-2f9d0f883d05}"
+EndProject
+Global
+    GlobalSection(SolutionConfigurationPlatforms) = preSolution
+        Debug|Any CPU = Debug|Any CPU
+        Release|Any CPU = Release|Any CPU
+    EndGlobalSection
+    GlobalSection(ProjectConfigurationPlatforms) = postSolution
+        {f045375e-f67f-4e6e-babc-2f9d0f883d05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+        {f045375e-f67f-4e6e-babc-2f9d0f883d05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+        {f045375e-f67f-4e6e-babc-2f9d0f883d05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+        {f045375e-f67f-4e6e-babc-2f9d0f883d05}.Release|Any CPU.Build.0 = Release|Any CPU
+    EndGlobalSection
+EndGlobal

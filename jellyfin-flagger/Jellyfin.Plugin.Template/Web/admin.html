@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Content Flagger</title>
+    <style>
+        table { width: 100%; border-collapse: collapse; }
+        th, td { border: 1px solid #ccc; padding: 8px; text-align: left; }
+        th { background-color: #f4f4f4; }
+    </style>
+</head>
+<body>
+    <h1>Flagged Content</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Title</th>
+                <th>Issue</th>
+                <th>Comment</th>
+                <th>Completed</th>
+                <th>Timestamp</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody id="flagTable"></tbody>
+    </table>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            fetch(ApiClient.getUrl('/ContentFlagger/Flags'))
+                .then(response => response.json())
+                .then(data => {
+                    const tbody = document.getElementById('flagTable');
+                    data.forEach(flag => {
+                        const row = document.createElement('tr');
+                        row.innerHTML = `
+                            <td>${flag.Title}</td>
+                            <td>${flag.Issue}</td>
+                            <td>${flag.Comment}</td>
+                            <td>${flag.Completed}</td>
+                            <td>${flag.Timestamp}</td>
+                            <td><button onclick="toggleCompleted('${flag.Title}', '${flag.Issue}', '${flag.Timestamp}')">Toggle</button></td>
+                        `;
+                        tbody.appendChild(row);
+                    });
+                });
+        });
+
+        function toggleCompleted(title, issue, timestamp) {
+            ApiClient.ajax({
+                url: ApiClient.getUrl('/ContentFlagger/ToggleCompleted'),
+                type: 'POST',
+                contentType: 'application/json',
+                data: JSON.stringify({ Title: title, Issue: issue, Timestamp: timestamp })
+            }).then(() => {
+                location.reload();
+            });
+        }
+    </script>
+</body>
+</html>
